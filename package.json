@@ -1,0 +1,31 @@
+{
+    "name": "portfolio",
+    "version": "1.0.0",
+    "description": "Portfolio website",
+    "main": "src/js/app.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "deploy": "gh-pages -d website"
+    },
+
+    "keywords": [
+        "personal",
+        "portfolio",
+        "website"
+    ],
+    "author": "Sourav Karmakar",
+    "license": "ISC",
+    "homepage": "https://iamskab.github.io/website",
+    "devDependencies": {
+        "@babel/core": "^7.11.1",
+        "@babel/preset-env": "^7.11.0",
+        "gh-pages": "^3.1.0",
+        "gulp": "^4.0.2",
+        "gulp-babel": "^8.0.0",
+        "gulp-babel-minify": "^0.5.1",
+        "gulp-imagemin": "^5.0.3",
+        "gulp-sass": "^4.1.0",
+        "node-sass": "^4.14.1",
+        "push-dir": "^0.4.1"
+    }
+}
